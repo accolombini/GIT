@@ -1,1 +1,2 @@
 Meus primeiros passos no mundo Git 
+Estamos trabalhando com os comandos git add e git commit
