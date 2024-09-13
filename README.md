@@ -16,3 +16,9 @@ Por fim, espero que essas ferramentas sejam um aditivo significativo em sua carr
   - Logs, dados de cahce, arquivos de build.
   - Credenciais ou chaves privadas.
 
+#### Plugins interessantes
+
+___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajudar___
+
+    1. Markdown All in One
+    2. Markdown Preview Enhanced
