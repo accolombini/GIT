@@ -23,13 +23,38 @@ ___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajuda
     1. Markdown All in One
     2. Markdown Preview Enhanced
 
+##### Alguns comandos que podem ser úteis
+
+    1. Caso queira contar quantos commits foram realizados em seu repositório local use:
+      `git rev-list --count HEAD`
+    2. Caso queira contar os commits que foram realizados em uma branch específica use:
+      `git rev-list --count <nome_da_branch>`
+    3. Se quiser saber o número de commits agrupado por autor faça:
+      `git shortlog -s`
+    4. Se quiser atualizar o repositório local com as mudanças do repositório remoto sem fazer o merge ou modificar seu barnch atual faça:
+      `git fetch`
+    5. Depois execute o comando a seguir que lhe mostrará se o seu branch local está sincronizado com o branch remoto, use:
+      `git status`
+    6. Se quiser comparar manualmente os commits entre o repositório local e remoto, use esse comando para visualizar os commits que você tem localmente e que ainda não foram enviados para o repositório remoto:
+      `git log origin/main..HEAD --oneline`
+    7. Para ver os commits que estão no repositório remoto e que você ainda não puxou para o seu repositório local, use:
+      `git log HEAD..origin/main --oneline`
+    8. Se você quiser ver exatamente o que mudou entre o seu branch local e o branch remoto, você pode usar:
+      `git diff origin/main`
+    9. Para trazer os commits remotos que estão faltando no seru repositório local, você pode usar:
+      `git pull`
+
+ > __Resumo:__
+  git fetch seguido de git status é a maneira mais simples e rápida para verificar se o seu repositório local está sincronizado com o remoto.
+  git log origin/main..HEAD mostra os commits que estão localmente e não foram enviados ao remoto.
+  git log HEAD..origin/main mostra os commits que estão no remoto e não foram puxados para o local.
+
 ##### Algo mais para tornar seu arquivo readme.mde mais elegante
 
-<ol type="a">
-  <li>__Dois subcritos o leva ao negrito__ **Isso também**</li>
-  <li>_Um subscrito o leva ao itálico_  *Isso também*</li>
-  <li><u>Isso te leva a um sublinhado</u> - _Isso é HTML e funciona perfeitamente_</li>
-  <li>~~Este é um texto riscado em Markdown~~</li>
+1. __Dois subcritos o leva ao negrito__ **Isso também**
+2. _Um subcrito o leva ao itálico_ *Isso também*
+3. <u>Isso te leva a um sublinhado</u> _Isso é HTML e funciona perfeitamente_
+4. ~~Este é um texto riscado~~ em Markdown
 
 ---
 >__Nota importante:__ `o markdown padrão não suporta listas ordenadas com letras - a. b. c. ... e não suporta texto riscado, esses parâmetros dependem do seu ambiente, o GitHub por exemplo, suporta.
