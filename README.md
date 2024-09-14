@@ -49,6 +49,9 @@ ___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajuda
   git log origin/main..HEAD mostra os commits que estão localmente e não foram enviados ao remoto.
   git log HEAD..origin/main mostra os commits que estão no remoto e não foram puxados para o local.
 
+##### Atenção:
+  >__Para aplicar esses comandos, lembre-se que deve fazer um git fetch antes. Não se esqueça disso, ok!
+
 ##### Algo mais para tornar seu arquivo readme.mde mais elegante
 
 1. __Dois subcritos o leva ao negrito__ **Isso também**
