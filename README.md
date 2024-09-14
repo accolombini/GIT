@@ -22,3 +22,11 @@ ___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajuda
 
     1. Markdown All in One
     2. Markdown Preview Enhanced
+
+##### Algo mais para tornar seu arquivo readme.mde mais elegante
+
+<ol type="a">
+  <li>__Dois subcritos o leva ao negrito__ **Isso também**</li>
+  <li>_Um subscrito o leva ao itálico_  *Isso também*</li>
+  <li><u>Isso te leva a um sublinhado</u> - _Isso é HTML e funciona perfeitamente_</li>
+  <li>~~Este é um texto riscado em Markdown~~</li>
