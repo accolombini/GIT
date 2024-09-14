@@ -30,3 +30,6 @@ ___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajuda
   <li>_Um subscrito o leva ao itálico_  *Isso também*</li>
   <li><u>Isso te leva a um sublinhado</u> - _Isso é HTML e funciona perfeitamente_</li>
   <li>~~Este é um texto riscado em Markdown~~</li>
+
+---
+>__Nota importante:__ `o markdown padrão não suporta listas ordenadas com letras - a. b. c. ... e não suporta texto riscado, esses parâmetros dependem do seu ambiente, o GitHub por exemplo, suporta.
