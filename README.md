@@ -71,3 +71,43 @@ ___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajuda
 >`git commit -m "Implementa nova funcionalidade"`
 >Fazer o push da branch para o repositório remoto:
 >`git push origin feature/nova-funcionalidade`
+
+---
+
+#### Implementando alterações sugeridas no PR
+
+__Passos para PR no GitHub__
+
+>Como funciona o fluxo de revisão no GitHub:
+
+>Adicionar Comentários:
+>Ao navegar na aba "Files changed" do PR, você pode adicionar comentários linha a linha em pontos específicos do código.
+>Ao fazer isso, o GitHub vai armazenar seus comentários como "pending" (pendentes).
+
+>Iniciar a Revisão:
+>Depois de adicionar todos os comentários que deseja, você verá o botão "Start a review" (ou algo similar, como "Finish your review").
+>Ao clicar em "Start a review", todos os seus comentários serão agrupados em uma única revisão. Isso permite que você faça um conjunto de feedbacks e sugestões de forma mais organizada.
+>Escolha o Tipo de Revisão: Depois de clicar em "Start a review", você terá três opções de como enviar essa revisão:
+
+>Comment: Se você quer apenas deixar comentários sem bloquear ou sugerir mudanças.
+>Approve: Se está tudo certo e você está aprovando as mudanças para serem mescladas.
+>Request changes: Se você quer solicitar alterações antes de aprovar o PR.
+
+__Passo a Passo Resumo:__
+
+1. Adicione os comentários no código que você deseja sugerir mudanças ou discutir.
+
+2. Clique em "Start a review" no canto superior direito da área de comentários.
+
+3. Escolha a opção apropriada para sua revisão:
+
+4. Approve se estiver satisfeito.
+
+5. Request changes se for necessário ajustar o código.
+6. Comment se você quer apenas dar feedback.
+7.Depois de selecionar uma dessas opções, clique em "Submit review" para finalizar.
+
+
+#### O que acontece depois?
+
+_Se você solicitar mudanças (Request changes), o autor do PR verá suas sugestões e poderá fazer novos commits para atualizar a PR. Assim, o ciclo de revisão continua até que todos estejam satisfeitos com as mudanças._
