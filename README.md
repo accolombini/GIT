@@ -61,3 +61,12 @@ ___Para melhorar a experiência com o Markdown, temos alguns plugins podem ajuda
 
 ---
 >__Nota importante:__ `o markdown padrão não suporta listas ordenadas com letras - a. b. c. ... e não suporta texto riscado, esses parâmetros dependem do seu ambiente, o GitHub por exemplo, suporta.
+#### Para o PR temos alguns passos a seguir
+
+>Para criar uma nova branch e alternar para ela, o comando é: `git switch -c nome-da-branch`.
+>Para alternar entre branches existentes, use: `git switch nome-da-branch-existente`
+
+>Fazer mudanças, adicionar os arquivos e fazer commit: `git add .`
+>`git commit -m "Implementa nova funcionalidade"`
+>Fazer o push da branch para o repositório remoto:
+>`git push origin feature/nova-funcionalidade`
