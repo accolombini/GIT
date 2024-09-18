@@ -111,3 +111,8 @@ __Passo a Passo Resumo:__
 #### O que acontece depois?
 
 _Se você solicitar mudanças (Request changes), o autor do PR verá suas sugestões e poderá fazer novos commits para atualizar a PR. Assim, o ciclo de revisão continua até que todos estejam satisfeitos com as mudanças._
+
+#### Nosso commit remoto
+
+_Isso é Itálico_ assim como isso é *itálico*, detalhe no __Markdown puro__ usa-se * e mão _, mas observe que usei __para bold__
+
