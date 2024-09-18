@@ -7,7 +7,7 @@ Figuras/
 MatApoio/*
 # Passo 2 -> aplicar a exceção no arquivo/arquivos desejados
 !MatApoio/pereira.pdf
-!MatApoio/slides_git.pdf
+# !MatApoio/slides_git.pdf
 
 # Ignorar a pasta temp
 temp/
