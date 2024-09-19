@@ -1,0 +1,9 @@
+Meus primeiros passos no mundo Git 
+Trabalhamos com outros comandos:
+    git init
+    git status
+    git log
+    git config --local 
+    git config --global
+    git config -l
+Estamos trabalhando com os comandos git add e git commit
