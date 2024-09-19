@@ -116,3 +116,6 @@ _Se você solicitar mudanças (Request changes), o autor do PR verá suas sugest
 
 _Isso é Itálico_ assim como isso é *itálico*, detalhe no __Markdown puro__ usa-se * e mão _, mas observe que usei __para bold__
 
+#### Muito importante
+
+>Quando clonar um repositório do GitHub, não o faça dentro de um diretório, pois o comando git clone se encarrega de criar seu diretório local exatamente com o mesmo nome de seu repositório remoto. Mais importante ainda, esse diretório já estara git ativo, ou seja você não deverá usar o comando git init, pois a pasta .git já terá sido clonada para você. Seus trabalhos começam a partir deste ponto ....
